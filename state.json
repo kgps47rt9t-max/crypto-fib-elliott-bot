@@ -1,0 +1,20 @@
+{
+  "cash": 697.2565287329631,
+  "initial_capital": 1000.0,
+  "position": {
+    "side": "short",
+    "entry_price": 80780.18970000002,
+    "size": 0.003744,
+    "stop_loss": 86163.0,
+    "take_profit_1": 78648.11439999999,
+    "take_profit_2": 77720.0386,
+    "entry_time": "2026-10-27T19:59:04.438135+00:00",
+    "reason": "Bearish swing retracement into 50-61.8% Fib | Swing 3.3%",
+    "current_price": 80780.18970000002,
+    "remaining_size": 0.003744
+  },
+  "peak_equity": 1000.0,
+  "trading_halted": false,
+  "trade_history": [],
+  "last_run": "2026-10-27T19:59:04.438638+00:00"
+}

@@ -1,0 +1,2 @@
+entry_time,exit_time,side,entry_price,exit_price,size,pnl,pnl_pct,reason,entry_reason
+2026-10-27 19:49:22.311288+00:00,2026-10-27 19:49:22.311729+00:00,short,80708.8254,80789.57459999999,0.003694,-0.894862634399967,-0.30015007503750774,end_of_backtest,Bearish swing retracement into 50-61.8% Fib | Swing 3.3%
