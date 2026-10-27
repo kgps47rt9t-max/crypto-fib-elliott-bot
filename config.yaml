@@ -1,0 +1,56 @@
+# ============================================================
+# Crypto Fib + Simplified Elliott Wave Bot - Configuration
+# ============================================================
+# DISCLAIMER: This is an EDUCATIONAL tool only.
+# No guarantee of profit. Past performance ≠ future results.
+# Use at your own risk. Never risk money you cannot afford to lose.
+# ============================================================
+
+exchange:
+  name: okx
+  # For paper trading we don't need real API keys
+  api_key: ""
+  api_secret: ""
+  sandbox: false
+
+trading:
+  symbol: "BTC/USDT"
+  timeframe: "4h"
+  initial_capital: 1000.0   # EUR equivalent in USDT terms for simplicity
+  risk_per_trade: 0.02      # 2%
+  max_open_trades: 1        # Conservative: only one position at a time
+  max_drawdown_pct: 0.15    # Stop trading if equity drops 15% from peak
+
+strategy:
+  # Fibonacci levels used for entries (conservative zone)
+  fib_entry_low: 0.50       # 50%
+  fib_entry_high: 0.618     # 61.8%
+  # Stop loss beyond the swing
+  fib_stop_buffer: 0.05     # extra 5% beyond the extreme
+  # Take profit at extensions
+  fib_tp1: 1.272
+  fib_tp2: 1.618
+  # Minimum swing size (in %) to consider a valid impulse
+  min_swing_pct: 3.0
+  # Lookback for pivot detection
+  pivot_lookback: 5
+  # Trend filter: EMA
+  ema_fast: 50
+  ema_slow: 200
+  # Only trade in direction of higher timeframe trend (conservative)
+  require_trend_alignment: true
+
+paper_trading:
+  enabled: true
+  fee_rate: 0.001           # 0.1% per side (maker/taker approximation)
+  slippage_pct: 0.0005      # 0.05% slippage simulation
+
+logging:
+  level: INFO
+  log_file: "logs/bot.log"
+  trade_log: "logs/trades.csv"
+  equity_log: "logs/equity.csv"
+
+backtest:
+  start_date: "2024-01-01"  # for historical tests
+  end_date: null            # null = until now
