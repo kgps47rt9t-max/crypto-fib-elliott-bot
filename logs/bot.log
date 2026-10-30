@@ -50,3 +50,11 @@
 2026-10-30 14:40:57,642 | INFO     | src.state | State saved. Cash: 1008.50
 2026-10-30 14:40:57,643 | INFO     | main | Current equity: 1008.50 USDT | Cash: 1008.50 | Position: NO
 2026-10-30 14:40:57,643 | INFO     | main | Single run finished.
+2026-10-30 19:00:15,731 | INFO     | main | ============================================================
+2026-10-30 19:00:15,731 | INFO     | main | SINGLE RUN (GitHub Actions mode)
+2026-10-30 19:00:15,731 | INFO     | main | ============================================================
+2026-10-30 19:00:15,731 | INFO     | src.state | State loaded. Cash: 1008.50 | In position: False
+2026-10-30 19:00:15,735 | INFO     | src.data_feed | DataFeed initialized: okx | BTC/USDT | 4h
+2026-10-30 19:00:17,480 | INFO     | src.state | State saved. Cash: 1008.50
+2026-10-30 19:00:17,482 | INFO     | main | Current equity: 1008.50 USDT | Cash: 1008.50 | Position: NO
+2026-10-30 19:00:17,482 | INFO     | main | Single run finished.
