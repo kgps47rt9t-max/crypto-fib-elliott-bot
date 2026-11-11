@@ -10,7 +10,7 @@
     "take_profit_2": 71831.4,
     "entry_time": "2026-11-10T00:54:09.278955+00:00",
     "reason": "Bearish swing retracement into 50-61.8% Fib | Swing 3.5%",
-    "current_price": 74254.6,
+    "current_price": 73679.0,
     "remaining_size": 0.00403
   },
   "peak_equity": 1015.6614750228316,
@@ -29,5 +29,5 @@
       "entry_reason": "Bearish swing retracement into 50-61.8% Fib | Swing 3.3%"
     }
   ],
-  "last_run": "2026-11-11T16:41:49.398514+00:00"
+  "last_run": "2026-11-11T23:09:56.059378+00:00"
 }
