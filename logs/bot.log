@@ -855,3 +855,11 @@
 2026-11-20 13:40:29,572 | INFO     | src.state | State saved. Cash: 1028.53
 2026-11-20 13:40:29,574 | INFO     | main | Current equity: 1028.53 USDT | Cash: 1028.53 | Position: NO
 2026-11-20 13:40:29,574 | INFO     | main | Single run finished.
+2026-11-20 21:35:49,426 | INFO     | main | ============================================================
+2026-11-20 21:35:49,426 | INFO     | main | SINGLE RUN (GitHub Actions mode)
+2026-11-20 21:35:49,426 | INFO     | main | ============================================================
+2026-11-20 21:35:49,426 | INFO     | src.state | State loaded. Cash: 1028.53 | In position: False
+2026-11-20 21:35:49,432 | INFO     | src.data_feed | DataFeed initialized: okx | BTC/USDT | 4h
+2026-11-20 21:35:51,380 | INFO     | src.state | State saved. Cash: 1028.53
+2026-11-20 21:35:51,382 | INFO     | main | Current equity: 1028.53 USDT | Cash: 1028.53 | Position: NO
+2026-11-20 21:35:51,382 | INFO     | main | Single run finished.
