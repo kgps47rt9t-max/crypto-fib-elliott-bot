@@ -1003,3 +1003,12 @@
 2026-11-25 16:14:29,873 | INFO     | main | Current equity: 1033.94 USDT | Cash: 874.04 | Position: YES
 2026-11-25 16:14:29,873 | INFO     | main |   Side: short | Entry: 60832.97 | Size: 0.002537
 2026-11-25 16:14:29,873 | INFO     | main | Single run finished.
+2026-11-26 00:44:58,659 | INFO     | main | ============================================================
+2026-11-26 00:44:58,659 | INFO     | main | SINGLE RUN (GitHub Actions mode)
+2026-11-26 00:44:58,659 | INFO     | main | ============================================================
+2026-11-26 00:44:58,660 | INFO     | src.state | State loaded. Cash: 874.04 | In position: True
+2026-11-26 00:44:58,666 | INFO     | src.data_feed | DataFeed initialized: okx | BTC/USDT | 4h
+2026-11-26 00:45:00,371 | INFO     | src.state | State saved. Cash: 874.04
+2026-11-26 00:45:00,373 | INFO     | main | Current equity: 1028.84 USDT | Cash: 874.04 | Position: YES
+2026-11-26 00:45:00,373 | INFO     | main |   Side: short | Entry: 60832.97 | Size: 0.002537
+2026-11-26 00:45:00,373 | INFO     | main | Single run finished.
